@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a3c9c99d7693bf680b75ca03476333d",
+    "content-hash": "49837c818d84a8c26b77a6564aa30340",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -3809,6 +3809,85 @@
                 "source": "https://github.com/bobthecow/psysh/tree/v0.12.24"
             },
             "time": "2026-06-29T15:41:09+00:00"
+        },
+        {
+            "name": "pushery/wirekit",
+            "version": "v2.11.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pushery/wirekit.git",
+                "reference": "398e98c06cd2858d3d8801123fb9deb43524e545"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pushery/wirekit/zipball/398e98c06cd2858d3d8801123fb9deb43524e545",
+                "reference": "398e98c06cd2858d3d8801123fb9deb43524e545",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "^12.0 || ^13.0",
+                "illuminate/support": "^12.0 || ^13.0",
+                "illuminate/view": "^12.0 || ^13.0",
+                "livewire/livewire": "^4.0",
+                "php": "^8.4"
+            },
+            "require-dev": {
+                "bacon/bacon-qr-code": "^3.1",
+                "blade-ui-kit/blade-heroicons": "^2.7",
+                "laravel/pint": "^1.0",
+                "orchestra/testbench": "^10.0 || ^11.1",
+                "pestphp/pest": "^4.0",
+                "pestphp/pest-plugin-laravel": "^4.0"
+            },
+            "suggest": {
+                "bacon/bacon-qr-code": "Required for the qr-code component — server-side QR code SVG generation",
+                "blade-ui-kit/blade-heroicons": "Heroicons preset — ~316 icons, Mini/Outline/Solid styles",
+                "blade-ui-kit/blade-icons": "Required for the icon system (~1.7). Install alongside your preferred icon set.",
+                "codeat3/blade-phosphor-icons": "Phosphor preset — ~1,500 icons in 6 weight styles",
+                "mallardduck/blade-lucide-icons": "Lucide preset — ~1,500 outline icons",
+                "ryangjchandler/blade-tabler-icons": "Tabler preset — ~5,700 outline/filled icons"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Pushery\\WireKit\\WireKitServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Pushery\\WireKit\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "pushery",
+                    "homepage": "https://github.com/pushery"
+                }
+            ],
+            "description": "A free, open-source UI component library for Laravel Livewire — styled with Tailwind CSS v4 and powered by Alpine.js.",
+            "homepage": "https://github.com/pushery/wirekit",
+            "keywords": [
+                "alpinejs",
+                "blade",
+                "components",
+                "laravel",
+                "livewire",
+                "tailwindcss",
+                "tall-stack",
+                "ui-kit",
+                "wirekit"
+            ],
+            "support": {
+                "issues": "https://github.com/pushery/wirekit/issues",
+                "source": "https://github.com/pushery/wirekit/tree/v2.11.1"
+            },
+            "time": "2026-07-03T23:06:36+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -9864,7 +9943,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.3"
+        "php": "^8.4"
     },
     "platform-dev": {},
     "plugin-api-version": "2.9.0"

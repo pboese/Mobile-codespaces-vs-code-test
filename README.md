@@ -15,6 +15,7 @@
 | [Laravel Fortify](https://github.com/laravel/fortify) | ^1.24 | Authentication back-end (login, register, password reset, 2FA) |
 | [Laravel Passkeys](https://github.com/laravel/passkeys) | ^1.0 | WebAuthn / FIDO2 passkey authentication |
 | [Livewire](https://livewire.laravel.com) | ^4.0 | Reactive UI components |
+| [Wirekit](https://docs.wirekit.app) | ^2.11 | Livewire UI component kit |
 
 ## Features
 
@@ -22,13 +23,14 @@
 - **TOTP two-factor authentication** (Google Authenticator, Authy, etc.) via Fortify
 - **Passkey authentication** (Face ID, Touch ID, hardware security keys) via the official `laravel/passkeys` package
 - **Livewire** reactive components for login, registration and 2FA challenge
+- **Wirekit** component library for consistent Livewire UI primitives
 - Password reset and email verification-ready
 
 ## Local Setup
 
 ### Requirements
 
-- PHP 8.2+
+- PHP 8.4+
 - Composer 2.x
 - Node 20+ and npm
 
