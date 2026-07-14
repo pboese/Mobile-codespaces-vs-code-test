@@ -13,7 +13,7 @@
 |---------|---------|---------|
 | [Laravel](https://laravel.com) | ^13.8 | Core framework |
 | [Laravel Fortify](https://github.com/laravel/fortify) | ^1.24 | Authentication back-end (login, register, password reset, 2FA) |
-| [Laravel Passkeys](https://github.com/laravel/passkeys) | ^1.0 | WebAuthn / FIDO2 passkey authentication |
+| [Laravel Passkeys](https://github.com/laravel/passkeys) | ^0.2.1 | WebAuthn / FIDO2 passkey authentication |
 | [Livewire](https://livewire.laravel.com) | ^4.0 | Reactive UI components |
 | [Wirekit](https://docs.wirekit.app) | ^2.11 | Livewire UI component kit |
 
