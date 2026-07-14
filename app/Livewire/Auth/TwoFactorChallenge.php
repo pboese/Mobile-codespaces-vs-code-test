@@ -109,6 +109,6 @@ class TwoFactorChallenge extends Component
     public function render()
     {
         return view('livewire.auth.two-factor-challenge')
-            ->layout('layouts.guest');
+            ;
     }
 }

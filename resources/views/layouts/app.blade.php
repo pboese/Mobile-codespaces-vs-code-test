@@ -31,8 +31,8 @@
                                 <a href="{{ route('home') }}" class="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100">
                                     {{ __('Dashboard') }}
                                 </a>
-                                <a href="{{ route('passcode.setup') }}" class="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100">
-                                    {{ __('Passcode') }}
+                                <a href="{{ route('two-factor.index') }}" class="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100">
+                                    {{ __('Security') }}
                                 </a>
                                 <form method="POST" action="{{ route('logout') }}">
                                     @csrf
@@ -49,11 +49,12 @@
             <!-- Page Content -->
             <main class="py-12">
                 <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                    {{ $slot }}
+                    @yield('content', $slot ?? '')
                 </div>
             </main>
         </div>
 
         @livewireScripts
+        @stack('scripts')
     </body>
 </html>
